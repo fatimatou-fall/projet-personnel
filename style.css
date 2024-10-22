@@ -1,0 +1,83 @@
+body{
+    background-color: beige;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    color:darkmagenta
+}
+nav ul li a:hover{
+color:deeppink
+}
+
+.logo {
+width: 150px;
+border-radius: 100px;
+justify-content: space-between;
+}
+ 
+h1{
+    color: deeppink;
+    font-size: 50px;
+    text-align:left;
+    padding: 20px;
+    margin: 1px;
+}
+ 
+h3{
+font-weight: lighter ;
+padding: 15px;
+margin: 1px;
+}
+span{
+    color:darkmagenta;
+}
+.barre{
+    text-decoration: none;
+    color:beige;
+    background-color: deeppink;
+    border-radius: 100px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+}
+.barre:hover{
+    background-color: darkmagenta;
+}
+.image {
+    float: right;
+    margin: 20px; 
+}
+.image{
+    border-radius:80px ;
+}
+
+.hero {
+    margin-top: 5%;
+}
+.icons a{
+    color: darkviolet;
+    font-size: 25px;
+    margin: 1px;
+    padding: 5px;
+}
+
+.icons{
+ margin-top: 15px;
+ margin-left: 15px;
+}
